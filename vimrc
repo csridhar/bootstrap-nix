@@ -44,8 +44,3 @@ set autoindent
 
 " for stricter indentation when programming in 'c'
 set cindent
-
-"""""""" match trailing whitespaces
-
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
