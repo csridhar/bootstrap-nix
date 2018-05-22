@@ -1,0 +1,6 @@
+"""""""" match trailing whitespaces
+"""""""" This does not work via a vimrc file.
+"""""""" Type this in manually and seems like it should take effect almost
+"""""""" immediately across all vim sessions
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
